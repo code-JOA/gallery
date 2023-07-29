@@ -3,6 +3,16 @@
   src: url(/FoundersGroteskCondensed-Bold.ttf);
 }
 
+@font-face {
+  font-family: CardinalR;
+  src: url(/cardinalfruitweb-regular.ttf);
+}
+
+@font-face {
+  font-family: CardinalI;
+  src: url(/cardinalfruitweb-italic.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
