@@ -13,5 +13,6 @@ body {
 #main-p {
   width: 100%;
   height: 100vh;
-  background-color: #ff7575;
+  /* background-color: #ff7575; */
+  background-color: #333;
 }
