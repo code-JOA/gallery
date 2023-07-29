@@ -45,6 +45,10 @@ body {
   background-color: #ff7d7d;
 }
 
+#cetner {
+  width: 100%;
+}
+
 #bottom {
   width: 100%;
   height: 50vh;
