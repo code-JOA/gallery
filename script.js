@@ -47,7 +47,7 @@ tl.to(
 tl.to(
   "#content",
   {
-    marginTop: "10%",
+    marginTop: "0%",
   },
   "a"
 );
