@@ -8,3 +8,7 @@ var tl = gsap.timeline({
     markers: true,
   },
 });
+
+tl.to("#top", {
+  top: "-100%",
+});
