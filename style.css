@@ -131,3 +131,12 @@ body {
   margin-top: 10%; */
   color: #111;
 }
+
+#page2-container {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5vw;
+}
