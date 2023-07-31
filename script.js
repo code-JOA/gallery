@@ -16,15 +16,15 @@ tl.to(
     top: "-50%",
   },
   "a"
-)
-  // bottom
-  .to(
-    "#bottom",
-    {
-      bottom: "-50%",
-    },
-    "a"
-  );
+);
+// bottom
+tl.to(
+  "#bottom",
+  {
+    bottom: "-50%",
+  },
+  "a"
+);
 
 // top-h
 tl.to(
