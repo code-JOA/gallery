@@ -55,6 +55,8 @@ body {
   height: 100vh;
   background-color: #000;
   position: relative;
+  transform-origin: center;
+  overflow: hidden;
 }
 
 #bottom {
