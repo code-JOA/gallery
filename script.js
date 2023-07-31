@@ -18,7 +18,7 @@ tl.to(
   "a"
 )
   // bottom
-.to(
+  .to(
     "#bottom",
     {
       bottom: "-50%",
@@ -27,7 +27,7 @@ tl.to(
   );
 
 // top-h
-.to(
+tl.to(
   "#top-h",
   {
     top: "80%",
