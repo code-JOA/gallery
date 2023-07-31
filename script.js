@@ -9,7 +9,19 @@ var tl = gsap.timeline({
   },
 });
 
-tl.to("#top", {
-  top: "-100%",
-  //   bottom: "-100%",
-});
+tl.to(
+  "#top",
+  {
+    top: "-50%",
+    //   bottom: "-100%",
+  },
+  a
+);
+tl.to(
+  "#bottom",
+  {
+    bottom: "-50%",
+    //   bottom: "-100%",
+  },
+  a
+);
