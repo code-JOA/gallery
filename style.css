@@ -92,10 +92,9 @@ body {
   font-family: "CardinalR";
   font-size: 4vw;
   margin-top: 100vh;
-  /* color: #fff; */
+  color: #fff;
 }
 
-.content h2 {
-  /* font-size: 12vw; */
+/* .content h2 {
   color: white;
-}
+} */
