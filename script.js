@@ -70,7 +70,7 @@ tl2.to(".img", {
 
 //
 var circle = document.querySelector("#circle");
-var frame = document.querySelector(".part1");
+var frame = document.querySelector(".frame");
 
 const lerp = (x, y, a) => x * (1 - a) + y * a;
 
