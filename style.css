@@ -102,3 +102,8 @@ body {
 .content h2 {
   color: white;
 }
+
+#page2 {
+  width: 100%;
+  height: 100vh;
+}
