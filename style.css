@@ -88,10 +88,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f2a0a0;
+  /* background-color: #f2a0a0; */
   font-family: "CardinalR";
   font-size: 4vw;
-  margin-top: 100%;
+  /* margin-top: 100%; */
+  color: #fff;
 }
 
 .content h2 {
