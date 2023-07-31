@@ -89,10 +89,11 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #f2a0a0;
-  font-family: CardinalR;
+  font-family: "CardinalR";
+  font-size: 4vw;
 }
 
 .content h2 {
-  font-size: 12vw;
+  /* font-size: 12vw; */
   color: white;
 }
