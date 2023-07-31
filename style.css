@@ -47,6 +47,7 @@ body {
   background-color: #fff;
   /* background-color: #ff7d7d; */
   overflow: hidden;
+  z-index: 99;
 }
 
 #center {
