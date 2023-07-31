@@ -18,7 +18,7 @@ tl.to(
   "a"
 )
   // bottom
-  .tl.to(
+  .to(
     "#bottom",
     {
       bottom: "-50%",
