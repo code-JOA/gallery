@@ -10,8 +10,6 @@ var tl = gsap.timeline({
 });
 
 tl.to("#top", {
-  top: "-100%"
-//   bottom: "-100%",
-  dowm: "-50%",
-
+  top: "-100%",
+  //   bottom: "-100%",
 });
