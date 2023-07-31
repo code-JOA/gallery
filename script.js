@@ -17,19 +17,19 @@ tl.to(
   },
   "a"
 )
-// bottom
-.tl.to(
-  "#bottom",
-  {
-    bottom: "-50%",
-  },
-  "a"
-);
+  // bottom
+  .tl.to(
+    "#bottom",
+    {
+      bottom: "-50%",
+    },
+    "a"
+  );
 // top-h
-.tl.to(
-  "#top-h",
-  {
-    top: "80%",
-  },
-  "a"
-);
+// tl.to(
+//   "#top-h",
+//   {
+//     top: "80%",
+//   },
+//   "a"
+// );
