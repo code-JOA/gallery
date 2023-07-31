@@ -87,7 +87,9 @@ body {
   width: 100%;
 }
 
-.center .content h2 {
+.content h2 {
   font-size: 2vw;
   color: white;
+  display: flex;
+  align-items: center;
 }
