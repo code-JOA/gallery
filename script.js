@@ -38,7 +38,7 @@ tl.to(
 tl.to(
   "#bottom-h",
   {
-    bottom: "-50%",
+    bottom: "-80%",
   },
   "a"
 );
