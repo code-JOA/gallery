@@ -81,3 +81,12 @@ body {
 #bottom-h {
   top: 0% !important;
 }
+
+.content {
+  height: 100vh;
+  width: 100%;
+}
+
+.content h1 {
+  font-size: 2vw;
+}
