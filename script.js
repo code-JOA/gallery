@@ -9,7 +9,7 @@ var tl = gsap.timeline({
   },
 });
 
-.tl.to(
+tl.to(
   "#top",
   {
     top: "-50%",
