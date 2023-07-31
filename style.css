@@ -82,15 +82,16 @@ body {
   top: 0% !important;
 }
 
-.center .content {
+.content {
   height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
+  background-color: #f2a0a0;
 }
 
 .content h2 {
   font-size: 2vw;
   color: white;
-  justify-content: center;
 }
