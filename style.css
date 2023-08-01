@@ -27,29 +27,6 @@ body {
 
 /*  */
 
-.frame span {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: baseline;
-  height: 5vw;
-  /* background-color: red; */
-  background-color: springgreen;
-  text-align: center;
-  font-size: 3vw;
-  font-weight: 700;
-  padding: 0 5vw;
-  transform: translateY(-5vw);
-}
-
-.frame {
-  position: relative;
-  height: 5vw;
-  z-index: 2;
-  /* background-color: red; */
-  overflow: hidden;
-}
-
 #circle {
   pointer-events: none;
   z-index: 1;
@@ -203,50 +180,4 @@ body {
 
 .content h2 {
   color: white;
-}
-
-.img-div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100vh;
-  /* background-color: rgb(100, 183, 255); */
-}
-
-.img {
-  width: 25vw;
-  height: 50vh;
-  background-image: url(https://our-revolution.com/images/60a2bs0u/production/766deb96495612e023c032afeee001063af9026e-2880x1760.png?w=1920&q=100&fit=clip&auto=format);
-  background-size: cover;
-  background-position: center;
-}
-
-.page1 {
-  min-height: 100vh;
-  width: 100%;
-  padding-top: 12vw;
-  position: relative;
-  z-index: 9;
-  /* padding-top: 12vw; */
-}
-
-.page1 h1 {
-  font-size: 8vw;
-  font-weight: 300;
-  font-family: PP mori;
-  margin-left: 6vw;
-  transform-origin: left;
-}
-
-.page1 h2 {
-  font-size: 8vw;
-  font-weight: 300;
-  transform-origin: left;
-  margin-left: 26vw;
-}
-
-.page1 h5 {
-  font-size: 20px;
-  margin-left: 53vw;
 }
