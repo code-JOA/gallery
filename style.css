@@ -27,27 +27,11 @@ body {
 
 /*  */
 
-#circle {
-  pointer-events: none;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  position: absolute;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  width: 2vw;
-  height: 2vw;
-  /* background-color: royalblue; */
-  background-color: rgb(72, 18, 137);
-  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
-}
-
-#nav {
+/* #nav {
   height: 100px;
   width: 100%;
   position: fixed;
   top: 0;
-  /* background-color: red; */
   align-items: center;
   display: flex;
   padding: 0 40px;
@@ -67,7 +51,7 @@ body {
 }
 
 #nav #part2 a:nth-last-child(1) {
-  /* background-color: yellowgreen; */
+  background-color: yellowgreen;
   padding: 7px 18px;
   border-radius: 50px;
   position: relative;
@@ -98,7 +82,7 @@ body {
   font-weight: 100;
   position: relative;
   z-index: 99;
-}
+} */
 
 /*  */
 
