@@ -228,7 +228,7 @@ body {
   padding-top: 12vw;
   position: relative;
   z-index: 9;
-  padding-top: 12vw;
+  /* padding-top: 12vw; */
 }
 
 .page1 h1 {
