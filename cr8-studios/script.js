@@ -1,14 +1,3 @@
-// Projects
-// window.addEventListener("mousemove", function (chahcha) {
-//   document.querySelector("#slidephoto").style.top = `${chahcha.clientY}px`;
-//   document.querySelector("#slidephoto").style.left = `${chahcha.clientX}px`;
-//   document.querySelector("#slidephoto").style.transform = `translate(${
-//     -chahcha.clientX * 0.2
-//   }px, ${-chahcha.clientY * 0.45}px)`;
-// });
-
-//
-
 var tl = gsap.timeline({
   scrollTrigger: {
     trigger: "#main",
@@ -118,6 +107,8 @@ document.querySelector("#aboutme").addEventListener("mouseleave", function () {
 // });
 
 //
+// Projects
+
 window.addEventListener("mousemove", function (chahcha) {
   document.querySelector("#slidephoto").style.top = `${chahcha.clientY}px`;
   document.querySelector("#slidephoto").style.left = `${chahcha.clientX}px`;
