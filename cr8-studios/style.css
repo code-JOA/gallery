@@ -372,6 +372,7 @@ body {
 .page3 h2 {
   font-size: 8vw;
   font-family: PP mori;
+  font-weight: 300;
   /* font-family: CardinalR; */
   display: flex;
   align-items: center;
