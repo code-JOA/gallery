@@ -1,11 +1,11 @@
 // Projects
-window.addEventListener("mousemove", function (chahcha) {
-  document.querySelector("#slidephoto").style.top = `${chahcha.clientY}px`;
-  document.querySelector("#slidephoto").style.left = `${chahcha.clientX}px`;
-  document.querySelector("#slidephoto").style.transform = `translate(${
-    -chahcha.clientX * 0.2
-  }px, ${-chahcha.clientY * 0.45}px)`;
-});
+// window.addEventListener("mousemove", function (chahcha) {
+//   document.querySelector("#slidephoto").style.top = `${chahcha.clientY}px`;
+//   document.querySelector("#slidephoto").style.left = `${chahcha.clientX}px`;
+//   document.querySelector("#slidephoto").style.transform = `translate(${
+//     -chahcha.clientX * 0.2
+//   }px, ${-chahcha.clientY * 0.45}px)`;
+// });
 
 //
 
@@ -81,12 +81,12 @@ document.querySelector("#aboutme").addEventListener("mouseleave", function () {
 });
 
 // original circle
-const text = document.getElementById("text3");
-text.innerHTML = text.textContent.replace(/\S/g, "<span>$&</span>");
-const ele = document.querySelectorAll("span");
-for (var i = 1; i < ele.length; i++) {
-  ele[i].style.transform = "rotate(" + i * 16.5 + "deg)";
-}
+// const text = document.getElementById("text3");
+// text.innerHTML = text.textContent.replace(/\S/g, "<span>$&</span>");
+// const ele = document.querySelectorAll("span");
+// for (var i = 1; i < ele.length; i++) {
+//   ele[i].style.transform = "rotate(" + i * 16.5 + "deg)";
+// }
 
 // 2nd working rotating circle
 // const text = document.getElementById("text3");
@@ -118,6 +118,13 @@ for (var i = 1; i < ele.length; i++) {
 // });
 
 //
+window.addEventListener("mousemove", function (chahcha) {
+  document.querySelector("#slidephoto").style.top = `${chahcha.clientY}px`;
+  document.querySelector("#slidephoto").style.left = `${chahcha.clientX}px`;
+  document.querySelector("#slidephoto").style.transform = `translate(${
+    -chahcha.clientX * 0.2
+  }px, ${-chahcha.clientY * 0.45}px)`;
+});
 
 document.querySelector("#chainn").addEventListener("mousemove", function () {
   document.querySelector("#slidephotos").style.marginTop = "0%";
