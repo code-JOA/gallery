@@ -480,28 +480,3 @@ body {
   margin-top: 45px;
   margin-bottom: 45px;
 }
-
-#showm {
-  display: flex;
-  justify-content: center;
-}
-
-#btnsm {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 13vw;
-  height: 5vw;
-  border: 1px solid #333;
-  border-radius: 50px;
-  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
-}
-
-#btnsm h1 {
-  font-size: 1vw;
-  color: rgb(165, 165, 165);
-}
-
-#btnsm h1 sup {
-  color: rgb(158, 158, 158);
-}
