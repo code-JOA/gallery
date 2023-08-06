@@ -363,7 +363,7 @@ body {
 .page3 {
   min-height: 2vh;
   width: 100%;
-  background-color: yellow;
+  /* background-color: yellow; */
   padding-top: 2vw;
   position: relative;
   z-index: 9;
