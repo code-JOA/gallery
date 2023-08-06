@@ -371,7 +371,10 @@ body {
 
 .page3 h2 {
   font-size: 100px;
-  margin-left: 53vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 53vw; */
 }
 
 /* slides for projects */
