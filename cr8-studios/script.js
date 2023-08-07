@@ -70,44 +70,6 @@ document.querySelector("#aboutme").addEventListener("mouseleave", function () {
   document.querySelector("#aboutme").style.backgroundColor = "#000";
 });
 
-// original circle
-// const text = document.getElementById("text3");
-// text.innerHTML = text.textContent.replace(/\S/g, "<span>$&</span>");
-// const ele = document.querySelectorAll("span");
-// for (var i = 1; i < ele.length; i++) {
-//   ele[i].style.transform = "rotate(" + i * 16.5 + "deg)";
-// }
-
-// 2nd working rotating circle
-// const text = document.getElementById("text3");
-// const chars = text.textContent.split("");
-
-// text.innerHTML = chars.map((char) => `<span>${char}</span>`).join("");
-
-// const spans = document.querySelectorAll("#text3 span");
-// spans.forEach((span, i) => {
-//   span.style.transform = `rotate(${(i + 1) * 16.5}deg)`;
-// });
-
-// rotating circle 2nd code
-
-// const textElements = document.querySelectorAll("#text3");
-
-// textElements.forEach((text) => {
-//   const chars = text.innerText.trim().split("");
-//   const totalChars = chars.length;
-
-//   text.innerHTML = chars
-//     .map(
-//       (char, i) =>
-//         `<span style="transform:rotate(${
-//           (360 / totalChars) * i
-//         }deg) translateX(100px)">${char}</span>`
-//     )
-//     .join("");
-// });
-
-//
 // Projects
 
 window.addEventListener("mousemove", function (chahcha) {
@@ -174,24 +136,3 @@ document.querySelector("#btnsm").addEventListener("mouseleave", function () {
   document.querySelector("#btnsm").style.backgroundColor = "initial";
   document.querySelector("#btnsm h1").style.color = "rgb(95, 95, 95)";
 });
-
-// section
-// const span = document.querySelector(".hover-btn2");
-// const overlay = document.querySelector(".overlay");
-
-// window.addEventListener("mousemove", (e) => {
-//   const { clientX, clientY } = e;
-//   const x = Math.round((clientX / window.innerWidth) * 100);
-//   const y = Math.round((clientY / window.innerHeight) * 100);
-
-//   gsap.to(overlay, {
-//     "--x": `${x}%`,
-//     "--y": `${y}%`,
-//     duration: 0.3,
-//     ease: "sine.out",
-//   });
-// });
-
-// span.addEventListener("click", () => {
-//   overlay.classList.toggle("is-open");
-// });
